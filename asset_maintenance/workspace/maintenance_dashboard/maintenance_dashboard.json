@@ -1,0 +1,43 @@
+{
+ "charts": [
+  {
+   "chart_name": "Asset Maintenance Request PieChart",
+   "label": "Asset Maintenance Request"
+  }
+ ],
+ "content": "[{\"id\":\"bgohDJY17-\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Asset Maintenance Request</b></span>\",\"col\":12}},{\"id\":\"L0fpfzlJR9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_eSnn_OVd9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Request\",\"col\":4}},{\"id\":\"D71ZRoK4Gv\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Critical Priority Request\",\"col\":4}},{\"id\":\"Oq_UbDpUW7\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"uCqtd7gesu\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Maintenance Request\",\"col\":12}}]",
+ "creation": "2024-10-23 21:08:26.369696",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard-list",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Maintenance Dashboard",
+ "links": [],
+ "modified": "2024-10-23 21:21:17.926735",
+ "modified_by": "Administrator",
+ "module": "Asset Maintenance",
+ "name": "Maintenance Dashboard",
+ "number_cards": [
+  {
+   "label": "Open Request",
+   "number_card_name": "Open Request"
+  },
+  {
+   "label": "Critical Priority Request",
+   "number_card_name": "Critical Priority Request"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "Maintenance Dashboard"
+}
