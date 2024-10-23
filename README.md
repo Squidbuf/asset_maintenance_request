@@ -3,9 +3,6 @@ Steps to Standup the Asset Maintenance App on Ubuntu 22.04 LTS Headless
 =======================================================
 sudo apt update;sudo apt upgrade
 sudo apt install git
-cd ~
-git clone https://github.com/Squidbuf/asset_maintenance_request.git
-cd asset_maintenance_request
 =======================================================
 sudo apt install -y python3 python3-pip
 sudo apt install python3.10-venv
@@ -42,4 +39,6 @@ bench init --frappe-branch version-15 frappe-bench
 cd frappe-bench/
 bench new-site project.site
 bench get-app --branch version-15 erpnext
+git clone https://github.com/Squidbuf/asset_maintenance_request.git
+bench start
 =======================================================
