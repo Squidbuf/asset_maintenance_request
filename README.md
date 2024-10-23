@@ -1,4 +1,3 @@
-----------------------------------------------------------------------------------------
 Steps to Standup the Asset Maintenance App on Ubuntu 22.04 LTS Headless
 
 sudo apt update
